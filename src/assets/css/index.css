@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-icon:hover .label {
+  opacity: 100;
+}
+
+.nav-icon .label {
+  opacity: 0;
+}
