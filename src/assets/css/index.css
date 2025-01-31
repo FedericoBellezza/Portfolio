@@ -11,3 +11,55 @@
 .nav-icon .label {
   opacity: 0;
 }
+
+.tailwind-logo {
+  height: 72px;
+  padding-bottom: 15px;
+}
+
+@keyframes scrollleft {
+  to {
+    left: -200px;
+  }
+}
+
+.wrapper {
+  width: 800px;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.scroller {
+  width: 100px;
+  animation-name: scrollleft;
+  animation-duration: 12.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.scroller2 {
+  animation-delay: 1.5s;
+}
+.scroller3 {
+  animation-delay: 3s;
+}
+.scroller4 {
+  animation-delay: 4.5s;
+}
+.scroller5 {
+  animation-delay: 6s;
+}
+.scroller6 {
+  animation-delay: 7.5s;
+}
+.scroller7 {
+  animation-delay: 9s;
+}
+.scroller8 {
+  animation-delay: 10.5s;
+}

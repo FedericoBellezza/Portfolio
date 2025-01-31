@@ -58,21 +58,50 @@ export default function RightColumn() {
       {/* Tools */}
       <h2 className="text-8xl font-extrabold mt-50">Technologies</h2>
 
-      <div className="flex gap-10 mt-20">
-        <div className="flex flex-col items-center">
+      <div className=" flex gap-10 mt-20 wrapper relative h-50 mb-100 overflow-hidden ">
+        <div className="scroller flex flex-col items-center  absolute left-full scroller1 ">
           <i className="fa-brands fa-html5 text-7xl mb-5"></i>
           <div className="text-2xl font-bold">HTML</div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="scroller flex flex-col items-center absolute left-full scroller2 ">
           <i className="fa-brands fa-css text-7xl mb-5"></i>
           <div className="text-2xl font-bold">CSS</div>
         </div>
-        <div className="flex flex-col items-center">
-          <div className="text-2xl font-bold">React</div>
+        <div className="flex flex-col items-center absolute scroller left-full  scroller3">
+          <img
+            className="tailwind-logo mb-5  "
+            src="../../../public/logo-tailwind.svg"
+            alt=""
+          />
+          <div className="text-2xl font-bold">Tailwind</div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center absolute scroller left-full  scroller4">
           <i className="fa-brands fa-react text-7xl mb-5"></i>
           <div className="text-2xl font-bold">React</div>
+        </div>
+        <div className="flex flex-col items-center absolute scroller left-full  scroller5">
+          <i className="fa-brands fa-bootstrap text-7xl mb-5"></i>
+
+          <div className="text-2xl font-bold">Bootstrap</div>
+        </div>
+        <div className="flex flex-col items-center absolute scroller left-full  scroller6">
+          <i className="fa-brands fa-node-js text-7xl mb-5"></i>
+
+          <div className="text-2xl font-bold">Node.js</div>
+        </div>
+        <div className="flex flex-col items-center absolute scroller left-full  scroller7">
+          <i className="fa-brands fa-js text-7xl mb-5"></i>
+
+          <div className="text-2xl font-bold">Javascript</div>
+        </div>
+        <div className="flex flex-col items-center absolute scroller left-full ms-5  scroller8">
+          <img
+            className="typescript-logo h-18 mb-5  p-1"
+            src="../../../public/logo-typescript.svg"
+            alt=""
+          />
+
+          <div className="text-2xl font-bold">Typescript</div>
         </div>
       </div>
     </div>
