@@ -3,6 +3,8 @@ import PersonalCard from "./PersonalCard";
 import HomePageRightColumn from "./HomePageRightColumn";
 import PageContext from "../Context/GlobalContext";
 import ContactsPage from "./ContactsPage";
+import ProjectsPage from "./ProjectsPage";
+import ToolsPage from "./ToolsPage";
 
 export default function HomePage() {
   const { currentPage, setCurrentPage } = useContext(PageContext);
@@ -19,5 +21,11 @@ export default function HomePage() {
         </div>
       </div>
     );
+  }
+  if (currentPage === "tools") {
+    return <ToolsPage />;
+  }
+  if (currentPage === "projects") {
+    return <ProjectsPage />;
   }
 }

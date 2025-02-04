@@ -4,9 +4,21 @@ export default function HomePageRightColumn() {
       <h1 className="text-8xl text-lime-300 font-extrabold">FULL STACK</h1>
       <h2 className="text-developer text-8xl font-extrabold">Web Developer</h2>
       <p className="text-xl text-gray-400 mt-10">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        quia quos facere labore libero repellendus ipsa perspiciatis explicabo
-        aliquam odio laboriosam.
+        Ciao, sono <strong>Federico Bellezza</strong>, un web developer{" "}
+        <strong>appassionato di tecnologia e innovazione. </strong>
+        <br />
+        <br />
+        Dopo aver conseguito il diploma in elettronica e aver maturato
+        esperienza in vari settori, ho deciso di seguire la mia vera passione
+        per la programmazione, completando il corso di
+        <strong> Boolean.</strong> <br />
+        Fin da giovane, mi sono sempre occupato di risolvere problemi legati
+        alla tecnologia. <br /> <br />
+        Ora, come web developer, sono entusiasta di{" "}
+        <strong>innovarecrescere professionalmente</strong>,{" "}
+        <strong>esplorare nuove tecnologie</strong> e contribuire con il mio
+        lavoro alla realizzazione di{" "}
+        <strong>progetti stimolanti e innovativ</strong>i.
       </p>
       {/* numbers section */}
       <div className="flex gap-10 mt-15">
@@ -38,7 +50,7 @@ export default function HomePageRightColumn() {
 
       {/* section buttons */}
       <div className="flex gap-10 my-15">
-        {/* right button */}
+        {/* left button */}
         <div className="bg-orange-400 w-90 h-70 overflow-hidden   text-white font-bold py-2 px-4 rounded-xl relative animate-appear duration-75 ease">
           <p className="text-6xl p-5 text-end">GitHub</p>
           <i className="fa-brands fa-github text-[20rem] top-0 left-0 absolute opacity-30"></i>
@@ -50,7 +62,7 @@ export default function HomePageRightColumn() {
             <i className="fa-solid fa-arrow-right text-2xl p-2 border  rounded hover:bg-amber-50 hover:text-orange-400 hover:border-transparent duration-200 ease "></i>
           </button>
         </div>
-        {/* left button */}
+        {/* right button */}
         <div className="bg-lime-400 w-90 h-70 overflow-hidden text-white font-bold py-2 px-4 rounded-xl relative animate-appear">
           <p className="text-6xl p-5 text-end">Linkedin</p>
           <i className="fa-brands fa-linkedin text-white text-[20rem] top-0 right-25 absolute opacity-30 "></i>

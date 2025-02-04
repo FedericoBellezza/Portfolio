@@ -3,11 +3,13 @@ import PageContext from "../Context/GlobalContext";
 
 export default function Navbar() {
   const { currentPage, setCurrentPage } = useContext(PageContext);
+
   const navigateToPage = ({ to }) => {
     if (currentPage === to) {
       window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
+
     let x = document.getElementsByClassName("animate-entryfromleft");
     Array.from(x).forEach((element) => {
       element.style.opacity = "0";
@@ -24,6 +26,7 @@ export default function Navbar() {
 
     setTimeout(() => {
       setCurrentPage(to);
+      window.scrollTo(0, 0);
     }, 500);
   };
   return (
