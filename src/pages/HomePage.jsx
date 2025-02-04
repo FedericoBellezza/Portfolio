@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import LeftColumn from "./LeftColumn";
-import RightColumn from "./RightColumn";
-import PageContext from "../../Context/GlobalContext";
-import ContactsPage from "../contactspage/ContactsPage";
+import PersonalCard from "./PersonalCard";
+import HomePageRightColumn from "./HomePageRightColumn";
+import PageContext from "../Context/GlobalContext";
+import ContactsPage from "./ContactsPage";
 
 export default function HomePage() {
   const { currentPage, setCurrentPage } = useContext(PageContext);
@@ -13,10 +13,9 @@ export default function HomePage() {
   if (currentPage === "home") {
     return (
       <div className="bg-slate-900  text-amber-50 pt-25">
-        {/* container */}
         <div className="container mx-auto flex flex-col xl:flex-row  py-10 ">
-          <LeftColumn />
-          <RightColumn />
+          <PersonalCard className="animate-entryfromleft" />
+          <HomePageRightColumn />
         </div>
       </div>
     );

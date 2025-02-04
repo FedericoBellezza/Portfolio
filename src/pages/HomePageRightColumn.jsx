@@ -1,4 +1,4 @@
-export default function RightColumn() {
+export default function HomePageRightColumn() {
   return (
     <div className="flex-2 animate-entryfromright" id="animate-entryfromright">
       <h1 className="text-8xl text-lime-300 font-extrabold">FULL STACK</h1>

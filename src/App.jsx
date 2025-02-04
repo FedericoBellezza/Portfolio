@@ -1,11 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import DefaultLayout from "./layouts/DefaultLayout";
-import HomePage from "./pages/homepage/HomePage";
-import ContactsPage from "./pages/contactspage/ContactsPage";
-import ToolsPage from "./pages/toolspage/ToolsPage";
-import ProjectsPage from "./pages/projectspage/ProjectsPage";
-import PageContext from "./Context/GlobalContext";
 import { useState } from "react";
+
+// import layouts
+import DefaultLayout from "./layouts/DefaultLayout";
+
+// import HomePage
+import HomePage from "./pages/HomePage";
+
+// import Context
+import PageContext from "./Context/GlobalContext";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -15,9 +18,6 @@ function App() {
         <Routes>
           <Route path="/" element={<DefaultLayout />}>
             <Route index element={<HomePage />} />
-            <Route path="contacts" element={<ContactsPage />} />
-            <Route path="tools" element={<ToolsPage />} />
-            <Route path="projects" element={<ProjectsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
