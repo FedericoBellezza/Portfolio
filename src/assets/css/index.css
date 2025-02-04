@@ -65,6 +65,16 @@ body {
     translate: 0px;
   }
 }
+@keyframes entryfromleft {
+  from {
+    opacity: 0;
+    translate: -200px;
+  }
+  to {
+    opacity: 1;
+    translate: 0px;
+  }
+}
 
 @keyframes appear {
   from {
@@ -87,6 +97,9 @@ body {
 
 .animate-entryfromright {
   animation: entryfromright 0.5s ease-in-out;
+}
+.animate-entryfromleft {
+  animation: entryfromleft 0.5s ease-in-out;
 }
 .animate-appear {
   animation: appear ease-in-out;

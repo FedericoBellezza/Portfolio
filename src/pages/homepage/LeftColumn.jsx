@@ -1,6 +1,6 @@
 export default function LeftColumn() {
   return (
-    <div className=" flex-1">
+    <div className="flex-1 animate-entryfromleft">
       {/* profile card */}
       <div className="sticky card top-10 mx-20 p-5 w-100 bg-white rounded-3xl flex flex-col items-center text-sky-950 hover:scale-105 duration-300 ease-in-out overflow-hidden ">
         <img
@@ -12,7 +12,7 @@ export default function LeftColumn() {
         <p className="text-xl text-center  text-slate-500 ">
           Sono un giovane sviluppatore web che lavora come Full Stack Developer
         </p>
-        <div className="flex gap-7 mt-10 pb-10 justify-center">
+        <div className="flex gap-7 mt-10 pb-10 justify-center animate-entryfromleft">
           <i
             onClick={() =>
               window.open("https://www.facebook.com/Federico.Bellezza.01")

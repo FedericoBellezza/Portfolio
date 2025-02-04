@@ -1,9 +1,7 @@
 export default function RightColumn() {
   return (
-    <div className="flex-2">
-      <h1 className="text-8xl text-lime-300 font-extrabold animate-entryfromright">
-        FULL STACK
-      </h1>
+    <div className="flex-2 animate-entryfromright" id="animate-entryfromright">
+      <h1 className="text-8xl text-lime-300 font-extrabold">FULL STACK</h1>
       <h2 className="text-developer text-8xl font-extrabold">Web Developer</h2>
       <p className="text-xl text-gray-400 mt-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
