@@ -1,9 +1,9 @@
 export default function HomePageRightColumn() {
   return (
-    <div className="flex-2 animate-entryfromright" id="animate-entryfromright">
+    <div className="flex-2 animate-entryfromright">
       <h1 className="text-8xl text-lime-300 font-extrabold">FULL STACK</h1>
       <h2 className="text-developer text-8xl font-extrabold">Web Developer</h2>
-      <p className="text-xl text-gray-400 mt-10">
+      <p className="text-xl text-gray-400 mt-10 ">
         Ciao, sono <strong>Federico Bellezza</strong>, un web developer{" "}
         <strong>appassionato di tecnologia e innovazione. </strong>
         <br />
@@ -79,8 +79,8 @@ export default function HomePageRightColumn() {
       </div>
 
       {/* Tools */}
-      <h2 className="text-8xl font-extrabold mt-50 animate-appear">
-        Tecnologie
+      <h2 className="text-7xl font-extrabold mt-50 animate-appear">
+        Tecnologie preferite
       </h2>
 
       <div className=" flex gap-10 mt-20 wrapper relative h-50 mb-100 overflow-hidden animate-appear ">
