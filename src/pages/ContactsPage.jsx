@@ -1,7 +1,9 @@
 // import email
 import emailjs from "emailjs-com";
+import { useState } from "react";
 
 export default function ContactsPage() {
+  const [emailSent, setEmailSent] = useState(false);
   // send email function
   const sendEmail = (e) => {
     e.preventDefault();
@@ -24,12 +26,26 @@ export default function ContactsPage() {
       .catch((error) => {
         console.log(error.text);
       });
+    e.target.reset();
+
+    setEmailSent(true);
+    setTimeout(() => {
+      setEmailSent(false);
+    }, 3000);
   };
   return (
     <div className="bg-slate-900  text-amber-50 pt-25 min-h-screen">
       <div className="container px-10   mx-auto flex flex-col xl:flex-row mt-25  justify-evenly items-center xl:items-start">
         <h1 className="lg:text-7xl text-5xl text-center font-extrabold animate-entryfromleft mb-10">
           Contattami
+          <span
+            id="email-sent-message"
+            className={` text-center xl:text-left mt-5 text-2xl block  animate-entryfromright duration-500 ease-in-out ${
+              emailSent ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            Email Inviata con successo!
+          </span>
         </h1>
         <div className="animate-entryfromright  max-w-xl">
           <form onSubmit={sendEmail} className=" space-y-4 w-full">
@@ -61,12 +77,13 @@ export default function ContactsPage() {
               name="message"
               className="w-full px-4 text-gray-800 bg-gray-100 border rounded-lg text-sm pt-3 outline-none transition-all"
             ></textarea>
-            <button
-              type="submit"
+
+            <input
+              name="submitbutton"
               className="text-white font-bold cursor-pointer bg-slate-700 hover:bg-lime-300 hover:text-slate-800 rounded-lg tracking-wide text-sm px-4 py-2.5 w-full transition-all ease-in duration-100"
-            >
-              Send
-            </button>
+              type="submit"
+              value="Invia"
+            />
           </form>
         </div>
       </div>
