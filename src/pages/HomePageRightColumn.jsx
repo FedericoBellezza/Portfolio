@@ -96,7 +96,7 @@ export default function HomePageRightColumn() {
             <div className="text-2xl font-bold">HTML</div>
           </div>
           <div className="flex flex-col items-center absolute scroller left-full scroller2">
-            <img className=" mb-5 p-1" src="../../logo-typescript.svg" alt="" />
+            <img className=" mb-5 p-1" src="/logo-typescript.svg" alt="" />
 
             <div className="text-2xl font-bold">Typescript</div>
           </div>
@@ -105,7 +105,7 @@ export default function HomePageRightColumn() {
             <div className="text-2xl font-bold">CSS</div>
           </div>
           <div className="flex flex-col items-center absolute scroller left-full  scroller4">
-            <img className=" mb-5" src="../../logo-tailwind.svg" alt="" />
+            <img className=" mb-5" src="/logo-tailwind.svg" alt="" />
             <div className="text-2xl font-bold">Tailwind</div>
           </div>
           <div className="flex flex-col items-center absolute scroller left-full  scroller5">
