@@ -31,7 +31,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="bg-transparent py-5 flex gap-1 items-center  justify-center fixed w-full z-10">
+      <div className="bg-transparent py-5 flex gap-1 items-center  justify-center fixed w-screen z-10">
         <div className="bg-slate-800 px-5 flex rounded-2xl h-14">
           <div className="nav-icon w-20  flex flex-col items-center">
             <button

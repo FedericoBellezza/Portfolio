@@ -3,10 +3,11 @@
 body {
   overflow-x: hidden;
 }
-
-.nav-icon:hover .label {
-  opacity: 100;
-  transform: translate(0px, 150%);
+@media only screen and (min-width: 600px) {
+  .nav-icon:hover .label {
+    opacity: 100;
+    transform: translate(0px, 150%);
+  }
 }
 
 .nav-icon .label {
