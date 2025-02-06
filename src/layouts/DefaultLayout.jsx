@@ -5,9 +5,11 @@ import Footer from "../components/Footer";
 export default function DefaultLayout() {
   return (
     <>
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <div className="w-screen overflow-hidden">
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 }
