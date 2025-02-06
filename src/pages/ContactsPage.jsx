@@ -39,16 +39,20 @@ export default function ContactsPage() {
         <h1 className="lg:text-7xl text-5xl text-center font-extrabold animate-entryfromleft mb-10">
           Contattami
           <span
-            id="email-sent-message"
-            className={` text-center xl:text-left mt-5 text-2xl block  animate-entryfromright duration-500 ease-in-out ${
-              emailSent ? "opacity-100" : "opacity-0"
+            className={`text-center xl:text-left mt-5  text-2xl block duration-500  ease-in-out    ${
+              emailSent ? "opacity-100 animate-entryfromright" : "opacity-0 "
             }`}
           >
             Email Inviata con successo!
           </span>
         </h1>
         <div className="animate-entryfromright  max-w-xl">
-          <form onSubmit={sendEmail} className=" space-y-4 w-full">
+          <form
+            onSubmit={sendEmail}
+            className={` space-y-4 w-full duration-500 ease-in-out lg:relative lg:top-0  ${
+              emailSent ? "relative top-0" : "top-[-80px] relative"
+            } `}
+          >
             <input
               required
               type="text"
@@ -87,7 +91,7 @@ export default function ContactsPage() {
           </form>
         </div>
       </div>
-      <p className="text-lg text-gray-400 mt-25  text-center">
+      <p className="text-lg text-gray-400 lg:mt-50 mt-15  text-center">
         Oppure scrivimi alla email:{" "}
         <strong>federico.bellezza2001@gmail.com</strong>
       </p>

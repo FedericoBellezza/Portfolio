@@ -7,7 +7,7 @@ import ProjectsPage from "./ProjectsPage";
 import ToolsPage from "./ToolsPage";
 
 export default function HomePage() {
-  const { currentPage, setCurrentPage } = useContext(PageContext);
+  const { currentPage } = useContext(PageContext);
 
   if (currentPage === "contacts") {
     return <ContactsPage />;
@@ -15,8 +15,8 @@ export default function HomePage() {
   if (currentPage === "home") {
     return (
       <div className="bg-slate-900  text-amber-50 pt-25">
-        <div className="container mx-auto gap-10 flex flex-col xl:flex-row lg:items-stretch items-center  lg:flex-row  p-10">
-          <PersonalCard className="animate-entryfromleft" />
+        <div className="container mx-auto flex gap-10 flex-col xl:flex-row lg:items-stretch items-center lg:px-15 p-5  lg:flex-row  py-10">
+          <PersonalCard />
           <HomePageRightColumn />
         </div>
       </div>
