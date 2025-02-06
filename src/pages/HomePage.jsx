@@ -15,7 +15,7 @@ export default function HomePage() {
   if (currentPage === "home") {
     return (
       <div className="bg-slate-900  text-amber-50 pt-25">
-        <div className="container mx-auto flex flex-col xl:flex-row  py-10 ">
+        <div className="container mx-auto gap-10 flex flex-col xl:flex-row lg:items-stretch items-center  lg:flex-row  p-10">
           <PersonalCard className="animate-entryfromleft" />
           <HomePageRightColumn />
         </div>

@@ -1,9 +1,15 @@
 export default function HomePageRightColumn() {
   return (
-    <div className="flex-2 animate-entryfromright">
-      <h1 className="text-8xl text-lime-300 font-extrabold">FULL STACK</h1>
-      <h2 className="text-developer text-8xl font-extrabold">Web Developer</h2>
-      <p className="text-xl text-gray-400 mt-10 ">
+    <div className="animate-entryfromright flex flex-col gap-15 items-center xl:items-start lg:text-start text-center">
+      <h1 className="text-5xl xl:text-8xl text-lime-300 font-extrabold">
+        FULL STACK
+        <br />
+        <span className="text-developer text-5xl xl:text-8xl font-extrabold text-amber-50">
+          Web Developer
+        </span>
+      </h1>
+
+      <p className="text-sm md:text-lg xl:text-xl text-gray-400 text-wrap w-90/100 md:w-full">
         Ciao, sono <strong>Federico Bellezza</strong>, un web developer{" "}
         <strong>appassionato di tecnologia e innovazione. </strong>
         <br />
@@ -18,29 +24,29 @@ export default function HomePageRightColumn() {
         <strong>innovarecrescere professionalmente</strong>,{" "}
         <strong>esplorare nuove tecnologie</strong> e contribuire con il mio
         lavoro alla realizzazione di{" "}
-        <strong>progetti stimolanti e innovativ</strong>i.
+        <strong>progetti stimolanti e innovativi.</strong>
       </p>
       {/* numbers section */}
-      <div className="flex gap-10 mt-15">
+      <div className="flex gap-5 md:gap-20 w-full p-5">
         <div>
-          <p className="text-7xl font-extrabold mb-5">+3</p>
-          <p className="text-xl text-gray-400">
+          <p className="text-5xl  md:text-7xl font-extrabold mb-5">+3</p>
+          <p className="text-lg md:text-xl text-gray-400">
             ANNI DI
             <br />
             ESPERIENZA
           </p>
         </div>
         <div>
-          <p className="text-7xl font-extrabold mb-5">+15</p>
-          <p className="text-xl text-gray-400">
+          <p className="text-5xl  md:text-7xl font-extrabold mb-5">+15</p>
+          <p className="text-lg md:text-xl text-gray-400">
             PROGETTI
             <br />
             COMPLETATI
           </p>
         </div>
         <div>
-          <p className="text-7xl font-extrabold mb-5">+7</p>
-          <p className="text-xl text-gray-400">
+          <p className="text-5xl  md:text-7xl font-extrabold mb-5">+7</p>
+          <p className="text-lg md:text-xl text-gray-400">
             CLIENTI
             <br />
             SODDISFATTI
@@ -49,7 +55,7 @@ export default function HomePageRightColumn() {
       </div>
 
       {/* section buttons */}
-      <div className="flex gap-10 my-15">
+      <div className="flex xl:flex-row flex-col gap-10 ">
         {/* left button */}
         <div className="bg-orange-400 w-90 h-70 overflow-hidden   text-white font-bold py-2 px-4 rounded-xl relative animate-appear duration-75 ease">
           <p className="text-6xl p-5 text-end">GitHub</p>
@@ -79,54 +85,56 @@ export default function HomePageRightColumn() {
       </div>
 
       {/* Tools */}
-      <h2 className="text-7xl font-extrabold mt-50 animate-appear">
-        Tecnologie preferite
-      </h2>
+      <div className="w-full mx-auto hidden xl:block">
+        <h2 className="text-4xl lg:text-7xl font-extrabold mt-20 animate-appear">
+          Tecnologie preferite
+        </h2>
 
-      <div className=" flex gap-10 mt-20 wrapper relative h-50 mb-100 overflow-hidden animate-appear ">
-        <div className="scroller flex flex-col items-center  absolute left-full scroller1 ">
-          <i className="fa-brands fa-html5 text-7xl mb-5"></i>
-          <div className="text-2xl font-bold">HTML</div>
-        </div>
-        <div className="flex flex-col items-center absolute scroller left-full scroller2">
-          <img
-            className="typescript-logo h-18 mb-5  p-1"
-            src="../../../public/logo-typescript.svg"
-            alt=""
-          />
+        <div className="flex gap-10 mt-10 wrapper relative h-50 mb-50 overflow-hidden animate-appear">
+          <div className="scroller flex flex-col items-center  absolute left-full scroller1 ">
+            <i className="fa-brands fa-html5 text-7xl mb-5"></i>
+            <div className="text-2xl font-bold">HTML</div>
+          </div>
+          <div className="flex flex-col items-center absolute scroller left-full scroller2">
+            <img
+              className="typescript-logo h-18 mb-5  p-1"
+              src="../../../public/logo-typescript.svg"
+              alt=""
+            />
 
-          <div className="text-2xl font-bold">Typescript</div>
-        </div>
-        <div className="scroller flex flex-col items-center absolute left-full scroller3">
-          <i className="fa-brands fa-css text-7xl mb-5"></i>
-          <div className="text-2xl font-bold">CSS</div>
-        </div>
-        <div className="flex flex-col items-center absolute scroller left-full  scroller4">
-          <img
-            className="tailwind-logo mb-5  "
-            src="../../../public/logo-tailwind.svg"
-            alt=""
-          />
-          <div className="text-2xl font-bold">Tailwind</div>
-        </div>
-        <div className="flex flex-col items-center absolute scroller left-full  scroller5">
-          <i className="fa-brands fa-react text-7xl mb-5"></i>
-          <div className="text-2xl font-bold">React</div>
-        </div>
-        <div className="flex flex-col items-center absolute scroller left-full  scroller6">
-          <i className="fa-brands fa-bootstrap text-7xl mb-5"></i>
+            <div className="text-2xl font-bold">Typescript</div>
+          </div>
+          <div className="scroller flex flex-col items-center absolute left-full scroller3">
+            <i className="fa-brands fa-css text-7xl mb-5"></i>
+            <div className="text-2xl font-bold">CSS</div>
+          </div>
+          <div className="flex flex-col items-center absolute scroller left-full  scroller4">
+            <img
+              className="tailwind-logo mb-5"
+              src="../../../public/logo-tailwind.svg"
+              alt=""
+            />
+            <div className="text-2xl font-bold">Tailwind</div>
+          </div>
+          <div className="flex flex-col items-center absolute scroller left-full  scroller5">
+            <i className="fa-brands fa-react text-7xl mb-5"></i>
+            <div className="text-2xl font-bold">React</div>
+          </div>
+          <div className="flex flex-col items-center absolute scroller left-full  scroller6">
+            <i className="fa-brands fa-bootstrap text-7xl mb-5"></i>
 
-          <div className="text-2xl font-bold">Bootstrap</div>
-        </div>
-        <div className="flex flex-col items-center absolute scroller left-full  scroller7">
-          <i className="fa-brands fa-node-js text-7xl mb-5"></i>
+            <div className="text-2xl font-bold">Bootstrap</div>
+          </div>
+          <div className="flex flex-col items-center absolute scroller left-full  scroller7">
+            <i className="fa-brands fa-node-js text-7xl mb-5"></i>
 
-          <div className="text-2xl font-bold">Node.js</div>
-        </div>
-        <div className="flex flex-col items-center absolute scroller left-full  scroller8">
-          <i className="fa-brands fa-js text-7xl mb-5"></i>
+            <div className="text-2xl font-bold">Node.js</div>
+          </div>
+          <div className="flex flex-col items-center absolute scroller left-full  scroller8">
+            <i className="fa-brands fa-js text-7xl mb-5"></i>
 
-          <div className="text-2xl font-bold">Javascript</div>
+            <div className="text-2xl font-bold">Javascript</div>
+          </div>
         </div>
       </div>
     </div>
