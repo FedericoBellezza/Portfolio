@@ -48,7 +48,7 @@ export default function ToolsPage() {
             <p className="text-2xl md:text-4xl p-5 text-end">Tailwind</p>
             {/* <i className="fa-brands fa-bootstrap text-[15rem] top-0 left-[-20px] absolute opacity-30"></i> */}
             <img
-              src="../../public/logo-tailwind.svg"
+              src="../logo-tailwind.svg"
               className="absolute top-10 left-[-100px] opacity-30"
               alt=""
             />
@@ -58,7 +58,7 @@ export default function ToolsPage() {
             <p className="text-2xl md:text-4xl p-5 text-end">TypeScript</p>
             {/* <i className="fa-brands fa-bootstrap text-[15rem] top-0 left-[-20px] absolute opacity-30"></i> */}
             <img
-              src="../../public/logo-typescript.svg"
+              src="../logo-typescript.svg"
               className="absolute top-10 left-[-20px] opacity-30 w-60/100 "
               alt=""
             />

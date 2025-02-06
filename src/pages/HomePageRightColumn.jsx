@@ -21,7 +21,7 @@ export default function HomePageRightColumn() {
         Fin da giovane, mi sono sempre occupato di risolvere problemi legati
         alla tecnologia. <br /> <br />
         Ora, come web developer, sono entusiasta di{" "}
-        <strong>innovarecrescere professionalmente</strong>,{" "}
+        <strong>crescere professionalmente</strong>,{" "}
         <strong>esplorare nuove tecnologie</strong> e contribuire con il mio
         lavoro alla realizzazione di{" "}
         <strong>progetti stimolanti e innovativi.</strong>
@@ -95,8 +95,12 @@ export default function HomePageRightColumn() {
             <i className="fa-brands fa-html5 text-7xl mb-5"></i>
             <div className="text-2xl font-bold">HTML</div>
           </div>
-          <div className="flex flex-col items-center absolute scroller left-full scroller2">
-            <img className=" mb-5 p-1" src="../logo-typescript.svg" alt="" />
+          <div className="flex flex-col items-center absolute scroller left-full  scroller2">
+            <img
+              className=" mb-5 p-1 h-18"
+              src="../logo-typescript.svg"
+              alt=""
+            />
 
             <div className="text-2xl font-bold">Typescript</div>
           </div>
@@ -105,7 +109,7 @@ export default function HomePageRightColumn() {
             <div className="text-2xl font-bold">CSS</div>
           </div>
           <div className="flex flex-col items-center absolute scroller left-full  scroller4">
-            <img className=" mb-5" src="../logo-tailwind.svg" alt="" />
+            <img className=" mb-5 h-18" src="../logo-tailwind.svg" alt="" />
             <div className="text-2xl font-bold">Tailwind</div>
           </div>
           <div className="flex flex-col items-center absolute scroller left-full  scroller5">
