@@ -1,9 +1,9 @@
 export default function PersonalCard() {
   return (
-    <div className="flex-1 animate-entryfromleft">
+    <div className="flex-1 animate-entryfromleft bg-amber-200">
       <div className="lg:aspect-2/3 p-5 sticky top-10 mx-auto  lg:min-w-100 w-full text-center bg-white rounded-3xl flex gap-5 flex-col items-center justify-between text-sky-950 hover:scale-105 duration-300 ease-in-out overflow-hidden ">
         <img
-          src="/dist/foto profilo2.jpg"
+          src="/foto-profilo2.jpg"
           alt=""
           className="aspect-square w-60 object-cover rounded-3xl"
         />
