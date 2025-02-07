@@ -12,17 +12,6 @@ body {
     opacity: 100;
     transform: translate(0px, 150%);
   }
-  .project-card p {
-    opacity: 0;
-    position: relative;
-    left: 100px;
-    display: inherit;
-    transition: all 0.5s ease-in-out;
-  }
-  .project-card:hover p {
-    left: 0px;
-    opacity: 100;
-  }
 }
 
 .nav-icon .label {
