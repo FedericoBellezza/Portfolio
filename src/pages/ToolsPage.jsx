@@ -29,6 +29,7 @@ export default function ToolsPage() {
           {/* Java */}
           <div className=" bg-orange-400  w-full sm:w-45/100 lg:w-30/100 h-40 overflow-hidden text-white font-bold py-2 px-4 rounded-xl relative  duration-200 ease">
             <p className="text-2xl md:text-4xl p-5 text-end">Java</p>
+            <p className="text-lg md:text-xl p-5 text-end">in progress</p>
             <i className="fa-brands fa-java text-[15rem] top-0 left-[-20px] absolute opacity-30"></i>
           </div>
           {/* Node.JS */}
@@ -46,6 +47,7 @@ export default function ToolsPage() {
           {/* Tailwind */}
           <div className=" bg-blue-400  w-full sm:w-45/100 lg:w-30/100 h-40 overflow-hidden text-white font-bold py-2 px-4 rounded-xl relative  duration-200 ease">
             <p className="text-2xl md:text-4xl p-5 text-end">Tailwind</p>
+
             {/* <i className="fa-brands fa-bootstrap text-[15rem] top-0 left-[-20px] absolute opacity-30"></i> */}
             <img
               src="../logo-tailwind.svg"
@@ -56,6 +58,8 @@ export default function ToolsPage() {
           {/* TypeScript */}
           <div className=" bg-sky-700 w-full sm:w-45/100 lg:w-30/100 h-40 overflow-hidden text-white font-bold py-2 px-4 rounded-xl relative  duration-200 ease">
             <p className="text-2xl md:text-4xl p-5 text-end">TypeScript</p>
+            <p className="text-lg md:text-xl p-5 text-end">in progress</p>
+
             {/* <i className="fa-brands fa-bootstrap text-[15rem] top-0 left-[-20px] absolute opacity-30"></i> */}
             <img
               src="../logo-typescript.svg"
