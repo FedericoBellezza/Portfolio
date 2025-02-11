@@ -7,12 +7,12 @@ export default function PersonalCard() {
           alt="profile photo"
           className="lg:aspect-10/13 aspect-square w-70 object-cover rounded-3xl"
         />
-        <h1 className="text-4xl font-extrabold  text-sky-950">
+        <div className="text-4xl font-extrabold  text-sky-950">
           Federico Bellezza
-        </h1>
-        <p className="text-xl text-center  text-slate-500">
-          Sono un giovane sviluppatore web che lavora come Full Stack Developer
-        </p>
+          <p className="text-xl text-center text-slate-500">
+            Jr FullStack Web Developer
+          </p>
+        </div>
         <div className="flex gap-7 justify-center">
           <i
             onClick={() =>

@@ -76,7 +76,7 @@ export default function Navbar() {
               }`}
             ></button>
             <div className="label text-white bg-slate-800  font-light p-2  rounded-lg duration-500 ease ">
-              Strumenti
+              Tecnologie
             </div>
           </div>
         </div>

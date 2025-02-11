@@ -27,7 +27,7 @@ export default function HomePageRightColumn() {
         <strong>progetti stimolanti e innovativi.</strong>
       </p>
       {/* numbers section */}
-      <div className="flex gap-5 md:gap-20 w-full p-5">
+      {/* <div className="flex gap-5 md:gap-20 w-full p-5">
         <div>
           <p className="text-5xl  md:text-7xl font-extrabold mb-5">+3</p>
           <p className="text-lg md:text-xl text-gray-400">
@@ -52,7 +52,7 @@ export default function HomePageRightColumn() {
             SODDISFATTI
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* section buttons */}
       <div className="flex xl:flex-row flex-col gap-10 ">
@@ -87,7 +87,7 @@ export default function HomePageRightColumn() {
       {/* Tools */}
       <div className="w-full mx-auto hidden xl:block">
         <h2 className="text-4xl lg:text-7xl font-extrabold mt-20 animate-appear">
-          Tecnologie preferite
+          Tecnologie
         </h2>
 
         <div className="flex gap-10 mt-10 wrapper relative h-50 mb-50 overflow-hidden animate-appear">
