@@ -67,6 +67,17 @@ export default function ToolsPage() {
               alt=""
             />
           </div>
+          {/* MySQL */}
+          <div className=" bg-orange-600 w-full sm:w-45/100 lg:w-30/100 h-40 overflow-hidden text-white font-bold py-2 px-4 rounded-xl relative  duration-200 ease">
+            <p className="text-2xl md:text-4xl p-5 text-end">MySQL</p>
+
+            {/* <i className="fa-brands fa-bootstrap text-[15rem] top-0 left-[-20px] absolute opacity-30"></i> */}
+            <img
+              src="../mysql-logo-pure.svg"
+              className="absolute top-7 left-[-0px] opacity-30 w-60/100 "
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
