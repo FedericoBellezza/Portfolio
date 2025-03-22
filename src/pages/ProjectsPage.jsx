@@ -16,7 +16,7 @@ export default function ProjectsPage() {
             className="cursor-pointer project-card  bg-sky-400 w-full h-70 overflow-hidden text-white font-bold py-2 text-4xl xl:text-5xl hover:scale-105   rounded-xl relative duration-200 ease  "
           >
             <p className="p-5 px-10 text-end">WeatherApp</p>
-            <p className="  px-10  text-lg text-end ">In corso</p>
+            <p className="  px-10  text-lg text-end ">In progress</p>
 
             <i className="fa-solid fa-cloud text-[20rem] top-0 left-0 absolute opacity-30"></i>
           </div>
@@ -28,9 +28,19 @@ export default function ProjectsPage() {
             className="cursor-pointer project-card  bg-green-400 w-full h-70 overflow-hidden text-white font-bold py-2 text-4xl xl:text-5xl  hover:scale-105  rounded-xl relative duration-200 ease  "
           >
             <p className="p-5  px-10  text-end ">Flaver Protection</p>
-            <p className="  px-10  text-lg text-end ">In corso</p>
+            <p className="  px-10  text-lg text-end ">In progress</p>
 
             <i className="fa-solid fa-tools text-[20rem] top-0 left-0 absolute opacity-30"></i>
+          </div>
+          {/* In corso */}
+          <div
+            onClick={() => window.open("https://australian-diary.web.app/")}
+            className="cursor-pointer project-card  bg-amber-400 w-full h-70 overflow-hidden text-white font-bold py-2 text-4xl xl:text-5xl  hover:scale-105  rounded-xl relative duration-200 ease  "
+          >
+            <p className="p-5  px-10  text-end ">Australian Diary</p>
+            <p className="  px-10  text-lg text-end ">In progress</p>
+
+            <i className="fa-solid fa-earth-oceania text-[20rem] top-0 left-0 absolute opacity-30"></i>
           </div>
         </div>
       </div>
