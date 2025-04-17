@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function DefaultLayout() {
   return (
     <>
-      <div className="w-screen overflow-hidden">
+      <div className="max-w-screen overflow-x-hidden">
         <Navbar />
         <Outlet />
         <Footer />

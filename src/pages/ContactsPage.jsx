@@ -35,15 +35,9 @@ export default function ContactsPage() {
   };
   return (
     <>
-      <img
-        src="./11.svg"
-        alt=""
-        className="absolute w-55/100 xl:w-45/100  xl:top-[-50px] left-20 hidden xl:block animate-entryfromleft"
-      />
-
       <div className="bg-slate-900  text-amber-50 pt-25 min-h-screen">
         <div className="container px-10   mx-auto flex flex-col xl:flex-row mt-25  justify-evenly items-center xl:items-start relative">
-          <h1 className="lg:text-7xl text-5xl text-center font-extrabold animate-entryfromleft mb-10">
+          <h1 className="text-5xl text-center font-extrabold animate-entryfromleft mb-10">
             Contattami
             <span
               className={`text-center xl:text-left mt-5  text-2xl block duration-500  ease-in-out    ${

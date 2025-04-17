@@ -1,3 +1,5 @@
+import InfiniteScrollCarouselFront from "../components/InfiniteScrollCarouselFront";
+
 export default function HomePageRightColumn() {
   return (
     <div className="animate-entryfromright flex flex-col gap-15 items-center xl:items-start lg:text-start text-center">
@@ -81,56 +83,6 @@ export default function HomePageRightColumn() {
           >
             <i className="fa-solid fa-arrow-right text-2xl p-2 border  rounded hover:bg-amber-50 hover:text-lime-500 hover:border-transparent duration-200 ease"></i>
           </button>
-        </div>
-      </div>
-
-      {/* Tools */}
-      <div className="w-full mx-auto hidden xl:block">
-        <h2 className="text-4xl lg:text-7xl font-extrabold mt-20 animate-appear">
-          Tecnologie
-        </h2>
-
-        <div className="flex gap-10 mt-10 wrapper relative h-50 mb-50 overflow-hidden animate-appear">
-          <div className="scroller flex flex-col items-center  absolute left-full scroller1 ">
-            <i className="fa-brands fa-html5 text-7xl mb-5"></i>
-            <div className="text-2xl font-bold">HTML</div>
-          </div>
-          <div className="flex flex-col items-center absolute scroller left-full  scroller2">
-            <img
-              className=" mb-5 p-1 h-18"
-              src="../logo-typescript.svg"
-              alt=""
-            />
-
-            <div className="text-2xl font-bold">Typescript</div>
-          </div>
-          <div className="scroller flex flex-col items-center absolute left-full scroller3">
-            <i className="fa-brands fa-css text-7xl mb-5"></i>
-            <div className="text-2xl font-bold">CSS</div>
-          </div>
-          <div className="flex flex-col items-center absolute scroller left-full  scroller4">
-            <img className=" mb-5 h-18" src="../logo-tailwind.svg" alt="" />
-            <div className="text-2xl font-bold">Tailwind</div>
-          </div>
-          <div className="flex flex-col items-center absolute scroller left-full  scroller5">
-            <i className="fa-brands fa-react text-7xl mb-5"></i>
-            <div className="text-2xl font-bold">React</div>
-          </div>
-          <div className="flex flex-col items-center absolute scroller left-full  scroller6">
-            <i className="fa-brands fa-bootstrap text-7xl mb-5"></i>
-
-            <div className="text-2xl font-bold">Bootstrap</div>
-          </div>
-          <div className="flex flex-col items-center absolute scroller left-full  scroller7">
-            <i className="fa-brands fa-node-js text-7xl mb-5"></i>
-
-            <div className="text-2xl font-bold">Node.js</div>
-          </div>
-          <div className="flex flex-col items-center absolute scroller left-full  scroller8">
-            <i className="fa-brands fa-js text-7xl mb-5"></i>
-
-            <div className="text-2xl font-bold">Javascript</div>
-          </div>
         </div>
       </div>
     </div>

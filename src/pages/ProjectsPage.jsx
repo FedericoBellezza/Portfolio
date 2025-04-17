@@ -3,11 +3,24 @@ export default function ProjectsPage() {
     <div className="bg-slate-900  text-amber-50 pt-25 min-h-screen">
       <div className="container p-10 mx-auto py-10">
         {/* title */}
-        <h1 className="lg:text-7xl text-5xl text-center font-extrabold animate-entryfromright ">
+        <h1 className="text-5xl text-center font-extrabold animate-entryfromright ">
           Progetti personali
         </h1>
         {/* card container */}
         <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10  animate-entryfromleft mt-15">
+          {/* Let's Play */}
+          <div
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/feed/update/urn:li:activity:7318199610559066112/"
+              )
+            }
+            className="cursor-pointer project-card  bg-purple-400 w-full h-70 overflow-hidden text-white font-bold py-2 text-4xl xl:text-5xl hover:scale-105   rounded-xl relative duration-200 ease  "
+          >
+            <p className="p-5 px-10 text-end">Let's Play</p>
+
+            <i className="fa-regular fa-calendar text-[18rem] top-5 left-0 absolute opacity-30"></i>
+          </div>
           {/* weather app */}
           <div
             onClick={() =>
